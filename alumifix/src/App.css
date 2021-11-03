@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.center{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.url{
+  width: 100px;
+  height: 40px;
+}
+.main {
+  padding: 15px 0;
+  width: 100%;
+  background-color:#00698C;
+  min-height: 50px;
+}
+.logo{
+  margin-left: -15%;
+  padding: 30px 0;
+  width: 17%;
+  background-color:#00698C;
+  min-height: 70px;
+  background-image: url('https://alumifixsolar.com.br/wp-content/uploads/2020/10/logo_site.png' );
+  background-size: cover;
+}
+.menu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: background-color 300ms;
+}
+.menu a:hover{
+  background-color: rgb(136, 136, 122);
+}
+.pesquisa {
+  width: 500px;
+  height: 40px;
+  margin: 10px auto;
+  
+}
+#texto{
+  padding-left: 8px;
+  width: 350px;
+  height: 40px;
+  float:left;
+  font-family: 'Arial';
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: aliceblue;
+  color: black;
+}
+.btn{
+  /*background-image: url('https://png.pngtree.com/png-vector/20190329/ourlarge/pngtree-vector-magnifying-glass-icon-png-image_889405.jpg');*/
+  width: 60px;
+  height: 40px;
+  background-color:rgba(0, 0, 0, 0.966);
+  padding: 1px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+.rodape_final {
+  background-color: #00698C;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+ position: fixed;
+  
+}
+.art_rod {
+  border: 1px solid #00698C;
+  /*width: 33.33%; */
+  margin: 10px;
+  padding-top: 8px;
+}
+.img-roda {
+  width: inherit;
+
+}
+.vendas {
+  padding-left: 8px;
+}
+.vendas p + p{
+  margin-top: 10px;
+}
+.siga {
+  margin: 10px;
+}
+.center, .right {
+  display: flex;
+}
+.table_categorias {
+  padding:20px;
+  margin: 10px; 
+  background-color: #00698C;
+  color: aliceblue;
+  display: flex;
+  border-radius: 10px;
+  width: 360px;
+  height: 260px;
+  justify-content: center;
+  background-color:#00698C;
+}
+.botões { 
+  background-color: #00698C;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 7px 8px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: background-color 300ms;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.prod {
+  background-color: #00698C;
+  padding: 4px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.editor {
+  padding: 7px;
+  margin: 25px;
+}
+.icon {
+  position:absolute;
+	left:3.7%;
+	top:29.5%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -10px;
+  }
+  .icon2 {
+  position:absolute;
+	left:3.7%;
+	top:34.2%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -10px;
+  }
+  .icon3{
+  position:absolute;
+	left:3.7%;
+	top:38.3%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -10px;
+  }
+.central {
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-310px;
+	margin-top:-230px;
+  height: 300px;
+  display: flex;
+}
+.setas {
+  width: 64px;
+  height: 64px;
+  margin-top: 120px;
+  
+}
+.fv {
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
