@@ -86,7 +86,7 @@
   padding: 10px;
   bottom: 0px;
   width: 100%;
- position: fixed;
+ /*position: fixed;*/
   
 }
 .art_rod {
@@ -119,9 +119,9 @@
   display: flex;
   border-radius: 10px;
   width: 360px;
-  height: 260px;
+  
   justify-content: center;
-  background-color:#00698C;
+  
 }
 .botões { 
   background-color: #00698C;
@@ -130,8 +130,7 @@
   border: 1px solid white;
   padding: 7px 8px;
   border-radius: 5px;
-  margin-right: 20px;
-  margin-left: 20px;
+  
   transition: background-color 300ms;
   display: flex;
   flex-direction: row;
@@ -139,52 +138,36 @@
   align-items: center;
 }
 .prod {
-  background-color: #00698C;
+  background-color:#00698C;
   padding: 4px;
-  margin: 5px;
+  margin: 20px 0 20px 0;
   align-items: center;
   justify-content: space-between;
 }
 .editor {
-  padding: 7px;
-  margin: 25px;
+ 
 }
 .icon {
-  position:absolute;
-	left:3.7%;
-	top:29.5%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  margin-left: -30px;
-  margin-top: -10px;
+  
+  width: 24px;
+  height: 24px;
+  
   }
   .icon2 {
-  position:absolute;
-	left:3.7%;
-	top:34.2%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  margin-left: -30px;
-  margin-top: -10px;
+  
+  width: 24px;
+  height: 24px;
+  
   }
   .icon3{
-  position:absolute;
-	left:3.7%;
-	top:38.3%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  margin-left: -30px;
-  margin-top: -10px;
+  
+  width: 24px;
+  height: 24px;
+  
   }
 .central {
-  position:absolute;
-	left:50%;
-	top:50%;
-	margin-left:-310px;
-	margin-top:-230px;
+  
+	
   height: 300px;
   display: flex;
 }
@@ -200,6 +183,31 @@
   text-decoration: none;
   border: 2px solid white;
   padding: 4px;
-  margin-right: 10px;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.duto {
+   margin-left: 8px;
+}
+.mcontainer {
+  display: flex;
+  width: 100%;
+  padding: 32px 48px;
+  flex-direction: column;
+}
+.mcenter, .mleft, .mrigth {
+  display: flex;
+  align-items: center;
+
+}
+
+.mrigth {
+  width: 300px;
+}
+
+.mcontent {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
 }
